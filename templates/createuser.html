@@ -1,0 +1,41 @@
+<div id="myModal">
+      <div class="modal-header">
+         <h4 class="modal-title">Create Player</h4>
+      </div>
+     
+     <div class="modal-body">
+   
+      <form class="form-horizontal">
+        <div class="form-group">  
+          <label class="left">FirstName </label>
+          <input class="right" type="text" id="FirstName" ng-model="Person.FirstName"/>
+        </div>
+         <div class="form-group">  
+          <label class="left">Surname </label>   
+          <input class="right" type="text" id="Surname"  ng-model="Person.Surname" />
+         </div>
+         <div class="form-group"> 
+           <label class="left">Sex </label>
+           <input class="right" type="text" id="Sex" ng-model="Person.Sex" />
+          </div>
+          <div class="form-group"> 
+            <label class="left">Tier </label>
+            <input class="right" type="text" id="Tier" ng-model="Person.Tier" />
+          </div>
+         <div class="form-group"> 
+          <label class="left">Email </label>
+          <input class="right" type="text" id="Email" ng-model="Person.Email" />
+         </div>
+    
+      </form> 
+  
+    </div>
+
+    <div class="modal-footer">
+          <button class="btn btn-primary" type="button" ng-click="ok(Person)">OK</button>
+          <button class="btn btn-warning" type="button" ng-click="cancel()">Cancel</button>
+    </div>
+
+</div>
+
+

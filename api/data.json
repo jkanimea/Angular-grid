@@ -1,0 +1,33 @@
+{
+   "Person": [ 
+    {
+      "FirstName": "Fred",
+      "Surname": "Redwood",
+      "Sex": "M",
+      "Tier":"G",
+      "Email":"Fred@gmail.com"
+    },
+    {
+      "FirstName": "Trevor",
+      "Surname": "Namforth",
+      "Sex": "M",
+      "Tier":"G",
+      "Email":"Trevor@gmail.com"
+    },
+     {
+      "FirstName": "Jane",
+      "Surname": "Jamerson",
+      "Sex": "F",
+      "Tier":"Y",
+      "Email":"Jane@gmail.com"
+    },
+    {
+      "FirstName": "Mary",
+      "Surname": "Toms",
+      "Sex": "F",
+      "Tier":"Y",
+      "Email":"Mary@gmail.com"
+    }
+]
+  
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>VIZ Explorer</title>
+<script src="/script/jquery.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"> </script>
+
+  
+  
+
+ 
+<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/angular-ui/bower-ui-grid/master/ui-grid.min.css">
+
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-touch.min.js"></script>
+   
+<script src="https://cdn.rawgit.com/angular-ui/bower-ui-grid/master/ui-grid.min.js"></script>  
+ <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-2.0.1.js"></script>
+  <script src="app_module.js"></script>
+      <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+ <link rel="stylesheet" type="text/css" href="/css/styles.css"></style>
+</head> 
+<body>
+<div>
+<img align="left" src="/img/Viz_logo.png" alt="Viz Explorer" height="42" width="160">
+<h2 align="right"> DataGrid Assignment</h2>
+</div>
+
+<div ng-app="myApp">
+     <div ng-controller="MainCtrl" >
+     <div class="col-sm-12">
+        <div class="col-sm-2"> 
+           <div ng-include="actualTemplateUrl" > </div>
+            <button type="button" ng-click="create()" >Add Player</button>          
+        </div>
+          <div class="col-sm-10">
+           <div ui-grid="gridOptions" ></div>
+         </div>
+
+      </div>
+    </div>  
+</div>
+
+
+
+
+</body>
+
+<style>
+.grid {
+  
+  height: 250px;
+}
+form { 
+margin: 0 auto; 
+width:250px;
+}
+
+.left {
+    width: 30%;
+    float: left;
+    text-align: right;
+}
+.right {
+    width: 65%;
+    margin-left: 10px;
+    float:left;
+}
+
+</style>
+</html>
